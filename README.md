@@ -4,7 +4,7 @@
 
 ![banner](./docs/assets/screenshot-test.png "banner")
 
-Run cypress inside container, use in headless mode and generate Html report.
+Run cypress inside container using in headless mode and generate Html report.
 
 Based in this project [Cypress Docker images](https://github.com/cypress-io/cypress-docker-images).
 

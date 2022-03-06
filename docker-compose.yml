@@ -1,0 +1,11 @@
+version: '3'
+services:
+  cypress:
+    image: cypress-chrome
+    container_name: cypress-app
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app

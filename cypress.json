@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://swapi.dev/api/",
+  "pluginsFile": false,
+  "fixturesFolder": false,
+  "video": false,
+  "defaultCommandTimeout": 10000,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/report/",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}

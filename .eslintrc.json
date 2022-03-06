@@ -1,0 +1,48 @@
+{
+  "plugins": [
+    "cypress"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "cypress/no-pause": "error",
+    "max-len": ["error", { "code": 80 }],
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "comma-dangle": ["error", "never"],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+    "prefer-const": ["error", {
+      "destructuring": "any",
+      "ignoreReadBeforeAssign": false
+    }],
+    // enforces no braces where they can be omitted
+    "arrow-body-style": [2, "as-needed"],
+    // require parens in arrow function arguments
+    "arrow-parens": 0,
+    // require space before/after arrow function"s arrow
+    "arrow-spacing": [2, { "before": true, "after": true }],
+    // disallow arrow functions where they could be confused with comparisons
+    "no-confusing-arrow": [2, {
+      "allowParens": true
+    }],
+    // require padding inside curly braces
+    "object-curly-spacing": [2, "always"],
+    // suggest using arrow functions as callbacks
+    "prefer-arrow-callback": 2
+  },
+  "extends": [
+    "plugin:cypress/recommended",
+    "eslint:recommended"
+  ]
+}

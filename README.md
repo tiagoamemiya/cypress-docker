@@ -49,6 +49,7 @@ Steps to use:
 
 
 6. Notes:
+- Tested in Linux Host Machine, on Mac M1 there as a errors reported, awaiting for fix.
 - Ignore this errors, they are known and are awaiting correction [here](https://github.com/cypress-io/cypress/issues/19299)
 
 ```shell

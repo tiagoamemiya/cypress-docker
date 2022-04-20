@@ -53,9 +53,11 @@ Steps to use:
 - Ignore this errors, they are known and are awaiting correction [here](https://github.com/cypress-io/cypress/issues/19299)
 
 ```shell
+
 Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
 Failed to connect to the bus: Address does not contain a colon
 Failed to connect to the bus: Address does not contain a colon
 Passthrough is not supported, GL is swiftshader, ANGLE is 
+
 
 ```
